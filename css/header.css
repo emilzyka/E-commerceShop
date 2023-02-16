@@ -1,0 +1,72 @@
+/* Add a black background color to the top navigation */
+body {
+  margin: 0px;
+}
+.topnav {
+  background-color: #0f1111ea;
+  overflow: hidden;
+  border: none;
+  border-bottom: solid 1px;
+  border-color: grey;
+  display: grid;
+  grid-template-columns: 140px 1fr repeat(4, 130px) 20px;
+  place-items: center;
+  grid-auto-flow: column;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(238, 14, 81, 255);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(66, 64, 64, 0.95);
+  color: #f2f2f2;
+}
+
+.topnav .logoImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+}
+
+.topnav .shop {
+  grid-column-start: 5;
+  border-bottom: 1px solid rgba(238, 14, 81, 255);
+}
+
+.topnav .cart {
+  grid-column-start: 6;
+  border: none;
+}
+
+.topnav .logout {
+  font-size: 22px;
+  grid-column-start: 3;
+  border-bottom: 1px solid rgba(238, 14, 81, 255);
+}
+
+.topnav .hem {
+  grid-column-start: 4;
+  margin-left: 15px;
+}
+
+.topnav .cartImg {
+  width: 42px;
+  height: 42px;
+  color: #f2f2f2;
+}
+
+.topnav .number {
+  margin-right: 50px;
+  grid-column-start: 7;
+  font-size: 22px;
+  color: rgba(238, 14, 81, 255);
+}

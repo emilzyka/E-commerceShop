@@ -1,0 +1,37 @@
+body {
+  background-image: url("../img/johnTower.jpg");
+  background-size: 1920px 1080px;
+}
+
+img {
+  height: 900px;
+  width: 900px;
+}
+
+.skapaKonto {
+  text-align: right;
+  color: white;
+}
+
+.skapaKonto a {
+  color: white;
+  font-size: 1.3rem;
+  margin-right: 50px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(238, 14, 81, 255);
+}
+
+.skapaKonto a:hover {
+  cursor: pointer;
+}
+
+.errorMsg {
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.intro {
+  text-align: center;
+  font-style: 1.2rem;
+}

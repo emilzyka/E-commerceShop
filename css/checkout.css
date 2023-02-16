@@ -1,0 +1,347 @@
+/* styling av varukorg */
+
+body {
+  background-color: rgb(206, 206, 206);
+}
+
+.removeOneMessage {
+  font-weight: 600;
+  text-align: center;
+}
+
+.title h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.lineForTitle {
+  background-color: black;
+  padding-top: 4px;
+  margin-bottom: 13px;
+}
+
+.tabeltitel {
+  font-weight: 400;
+}
+
+td img {
+  width: 70px;
+  height: 90px;
+}
+
+.ptable {
+  margin-top: 25px;
+  border-collapse: separate;
+  border-spacing: 8px;
+  display: grid;
+  justify-content: center;
+}
+
+.products {
+  background-color: rgb(206, 206, 206);
+}
+
+.imgtd {
+  width: 70px;
+  height: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.titleCard {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: rgb(206, 206, 206);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.priceTag {
+  color: #a84f56;
+  background-color: rgb(206, 206, 206);
+}
+
+.btnROne {
+  background-color: rgb(206, 206, 206);
+}
+
+/* buttons */
+.removeOne {
+  background-color: rgb(206, 206, 206);
+  color: #c5333f;
+  padding: 5px 8px;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.removeOne:hover {
+  background-color: rgb(148, 148, 148);
+}
+
+.removeAll {
+  background-color: rgb(206, 206, 206);
+  color: #c5333f;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-left: 62%;
+}
+
+.removeAll:hover {
+  background-color: rgb(148, 148, 148);
+}
+
+.checkoutBtn {
+  background-color: #61afef;
+  color: #eceff4;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  border: none;
+  width: clamp(200, 50%, 300);
+}
+
+.checkoutBtn:hover {
+  background-color: #286597;
+}
+
+.continueShopping {
+  background-color: rgb(206, 206, 206);
+  color: #286597;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+/* css för checkout */
+.order {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.fardig {
+  text-align: center;
+  color: #296697;
+}
+
+.formInput {
+  display: grid;
+  grid-template-rows: repeat(8, 40px);
+  justify-content: center;
+}
+
+.formInput label {
+  margin-top: 20px;
+}
+
+.formInput input {
+  width: 400px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: #000000;
+  font-size: large;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formInput input::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prisout {
+  text-align: center;
+}
+
+.formPayment {
+  display: flex;
+  justify-content: center;
+}
+
+.formPayment select {
+  height: 36px;
+  border: 1px solid #2b2b2b;
+  justify-self: center;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.bek {
+  display: flex;
+  justify-content: center;
+}
+
+.bek input {
+  margin-top: 10px;
+  height: 40px;
+  width: 250px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #474747;
+}
+
+.bek input:hover {
+  background-color: #286597;
+  cursor: pointer;
+}
+
+.karta {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#length {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.kartmed {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+/* styling for comment section product */
+.productContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.lineSep {
+  background-color: rgb(163, 162, 162);
+  padding-top: 2px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+
+.card {
+  background-color: rgb(168, 167, 167);
+  max-width: 45vh;
+  min-width: 45vh;
+  min-height: 30vh;
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: 450px 80px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.product_img {
+  border: 3px solid rgb(184, 180, 180);
+  border-radius: 2px;
+  padding: 3px;
+  width: 300px;
+  height: 420px;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.7rem;
+  color: #296697;
+  font-family: sans-serif;
+}
+
+.price {
+  align-self: center;
+  justify-self: center;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #a84f56;
+}
+
+.description p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* comment section for posting comments */
+.commentBox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.commentForm #comment {
+  resize: none;
+  width: 500px;
+  height: 130px;
+}
+
+.submitComment {
+  margin-left: 89%;
+  background-color: #286597;
+  border: none;
+  border-radius: 6px;
+  width: 55px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.submitComment:hover {
+  background-color: #3b7585;
+  cursor: pointer;
+}
+
+.dynamicLoad {
+  display: grid;
+  justify-content: center;
+}
+
+.commentContainer {
+  background-color: rgb(206, 206, 206);
+  margin-top: 15px;
+  max-width: 750px;
+}
+
+.commentSep {
+  background-color: #296697;
+  padding-top: 2px;
+  margin-bottom: 8px;
+}
+
+.commentContainer .postedBy {
+  margin-left: 5px;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.commentContainer .commentCont {
+  margin-left: 5px;
+}
+
+.removeOneMessage h3 {
+  text-align: center;
+}
+
+.conMes {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(87, 86, 86);
+  border-radius: 12px;
+  width: 500px;
+  height: 500px;
+  background-color: #0f1111ea;
+  box-shadow: 5px 10px #888888;
+  color: white;
+}
+
+.allProducts {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
